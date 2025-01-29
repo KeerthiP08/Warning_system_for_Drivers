@@ -15,7 +15,7 @@ This project aims to develop a **Driver Drowsiness and Yawn Detection System** t
 ## Technology Stack
 
 ### Software Requirements
-**Programming Language:** Python
+**Programming Language:** Python                    
 **Libraries:**
 OpenCV – Image processing and face detection            
 dlib – Facial landmark detection                        
@@ -63,6 +63,15 @@ Using dlib's 68-point facial landmark detector, the system identifies key facial
    ```bash
    python drowsiness_yawn.py --webcam 0
 
+## Usage
+
+1. Ensure the webcam is properly connected.
+2. Run the script to start real-time monitoring.
+3. The system continuously processes video frames and detects drowsiness based on:
+   - Eye closure for a prolonged time (EAR below threshold).
+   - Yawning detection (MAR exceeding a set threshold).
+4. If fatigue is detected, an audio alarm is triggered to alert the driver.
+
 ## Future Work
 - **Improve Accuracy:** Improve the accuracy and efficiency of the detection system.
 - **Lighting Conditions:** Address issues with poor lighting conditions by using infrared backlights.
@@ -70,3 +79,7 @@ Using dlib's 68-point facial landmark detector, the system identifies key facial
 
 ## Conclusion
 This project provides an effective and affordable solution for detecting driver fatigue and yawning, which are primary causes of road accidents. By providing timely warnings to the driver, this system can help save lives and reduce accidents on the road. The system uses an innovative approach with facial landmark detection and is cost-effective, making it an ideal choice for real-world applications.
+
+## Contributions & Support
+Contributions are welcome! Feel free to submit issues or pull requests to improve the project.
+For any questions, contact: keerthireddy0508@gmail.com
