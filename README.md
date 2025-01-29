@@ -81,5 +81,5 @@ Using dlib's 68-point facial landmark detector, the system identifies key facial
 This project provides an effective and affordable solution for detecting driver fatigue and yawning, which are primary causes of road accidents. By providing timely warnings to the driver, this system can help save lives and reduce accidents on the road. The system uses an innovative approach with facial landmark detection and is cost-effective, making it an ideal choice for real-world applications.
 
 ## Contributions & Support
-Contributions are welcome! Feel free to submit issues or pull requests to improve the project.
+Contributions are welcome! Feel free to submit issues or pull requests to improve the project.   
 For any questions, contact: keerthireddy0508@gmail.com
