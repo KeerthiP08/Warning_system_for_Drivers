@@ -12,6 +12,22 @@ This project aims to develop a **Driver Drowsiness and Yawn Detection System** t
 - **Real-time Processing:** Captures video and processes each frame in real-time.
 - **Alerts:** Provides audio or visual warnings when drowsiness or yawning is detected.
 
+## Technology Stack
+
+### Software Requirements
+**Programming Language:** Python
+**Libraries:**
+OpenCV – Image processing and face detection
+dlib – Facial landmark detection
+NumPy – Numerical computations
+pygame – Audio alerts
+**Development Environment:** Python IDLE / Jupyter Notebook
+### Hardware Requirements
+Operating System: Windows 7 or later / Linux / macOS
+Processor: Intel i5 or higher
+RAM: Minimum 4GB
+Webcam: Required for video input
+  
 ## Modules
 
 ### 1. Capturing Input Video
@@ -32,26 +48,25 @@ Using dlib's 68-point facial landmark detector, the system identifies key facial
 - If the driver yawns, an alert is triggered to warn of potential fatigue.
   
 
-## System Requirements
-
-### Software Requirements:
-- Python IDLE Shell
-- **Libraries:** 
-  - dlib
-  - OpenCV
-  - 68-point Face Landmark Detector
-  - pygame
-  - Numpy
-
-### Hardware Requirements:
-- Windows 7 or above
-- Minimum 4GB RAM
-- i5 Processor or above
-- Webcam for capturing video
-
 ## Installation Instructions
 
-1. Clone this repository:
+1. **Clone this repository:**
    ```bash
    git clone https://github.com/your-username/drowsiness-yawn-detection.git
    cd drowsiness-yawn-detection
+2. **Install Dependencies**
+   Ensure you have Python installed, then install the required libraries:
+   ```bash
+   pip install -r requirements.txt
+3. **Run the Application**
+   Execute the main script:
+   ```bash
+   python drowsiness_yawn.py --webcam 0
+
+## Future Work
+- **Improve Accuracy:** Improve the accuracy and efficiency of the detection system.
+- **Lighting Conditions:** Address issues with poor lighting conditions by using infrared backlights.
+- **Additional Factors:** Explore external factors (weather, vehicle state, etc.) for measuring fatigue and drowsiness.
+
+## Conclusion
+This project provides an effective and affordable solution for detecting driver fatigue and yawning, which are primary causes of road accidents. By providing timely warnings to the driver, this system can help save lives and reduce accidents on the road. The system uses an innovative approach with facial landmark detection and is cost-effective, making it an ideal choice for real-world applications.
