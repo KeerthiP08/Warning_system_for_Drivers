@@ -16,7 +16,7 @@ This project aims to develop a **Driver Drowsiness and Yawn Detection System** t
 
 ### Software Requirements
 **Programming Language:** Python                    
-**Libraries:**
+**Libraries:**                         
 OpenCV – Image processing and face detection            
 dlib – Facial landmark detection                        
 NumPy – Numerical computations                           
