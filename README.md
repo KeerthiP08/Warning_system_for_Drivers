@@ -17,33 +17,33 @@ This project aims to develop a **Driver Drowsiness and Yawn Detection System** t
 ### Software Requirements
 **Programming Language:** Python
 **Libraries:**
-OpenCV – Image processing and face detection
-dlib – Facial landmark detection
-NumPy – Numerical computations
-pygame – Audio alerts
-**Development Environment:** Python IDLE / Jupyter Notebook
-### Hardware Requirements
-Operating System: Windows 7 or later / Linux / macOS
-Processor: Intel i5 or higher
-RAM: Minimum 4GB
-Webcam: Required for video input
+OpenCV – Image processing and face detection            
+dlib – Facial landmark detection                        
+NumPy – Numerical computations                           
+pygame – Audio alerts                                            
+**Development Environment:** Python IDLE / Jupyter Notebook                      
+### Hardware Requirements                           
+Operating System: Windows 7 or later / Linux / macOS                                
+Processor: Intel i5 or higher                                                 
+RAM: Minimum 4GB                                         
+Webcam: Required for video input                                        
   
 ## Modules
 
-### 1. Capturing Input Video
+1. **Capturing Input Video**
 The system captures video using the webcam, which is then processed frame by frame.
 
-### 2. Face Detection
+2. **Face Detection**
 The system detects the face in the video stream using a face detection algorithm.
 
-### 3. Landmark Prediction
+3. **Landmark Prediction**
 Using dlib's 68-point facial landmark detector, the system identifies key facial features such as eyes, mouth, and jawline.
 
-### 4. EAR and MAR Calculation
+4. **EAR and MAR Calculation**
 - **EAR (Eye Aspect Ratio):** Measures the eye’s openness and helps detect drowsiness.
 - **MAR (Mouth Aspect Ratio):** Measures mouth openness to detect yawns.
 
-### 5. Drowsiness and Yawn Detection
+5. **Drowsiness and Yawn Detection**
 - If the driver’s eyes are closed for too long (indicating drowsiness), the system issues an alert.
 - If the driver yawns, an alert is triggered to warn of potential fatigue.
   
@@ -52,8 +52,8 @@ Using dlib's 68-point facial landmark detector, the system identifies key facial
 
 1. **Clone this repository:**
    ```bash
-   git clone https://github.com/your-username/drowsiness-yawn-detection.git
-   cd drowsiness-yawn-detection
+   git clone https://github.com/KeerthiP08/Warning_system_for_Drivers
+   cd Warning_system_for_drivers
 2. **Install Dependencies**
    Ensure you have Python installed, then install the required libraries:
    ```bash
